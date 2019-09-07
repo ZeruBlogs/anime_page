@@ -1,3 +1,5 @@
+
+<script>
 var modal = document.getElementById(&quot;myModal&quot;);
 
 var btn = document.getElementById(&quot;myBtn&quot;);
@@ -17,3 +19,4 @@ window.onclick = function(event) {
     modal.style.display = &quot;none&quot;;
   }
 }
+</script>

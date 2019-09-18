@@ -192,6 +192,9 @@ table a {
 }
 /** 550PX **/
 @media only screen and (max-width: 650px) {
+	.contenedor{
+    overflow:hidden;
+  }
   .column {
   width: 100%;
 }

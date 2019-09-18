@@ -1,0 +1,47 @@
+.versiones > input[type="radio"] {
+  display: none;
+}
+.versiones .tab-ver {display: none;}
+.versiones > input:first-child:checked ~ .tab-versiones > .tab-ver:first-child,
+.versiones > input:nth-child(3):checked ~ .tab-versiones > .tab-ver:nth-child(2),
+.versiones > input:nth-child(5):checked ~ .tab-versiones > .tab-ver:nth-child(3),
+.versiones > input:nth-child(7):checked ~ .tab-versiones > .tab-ver:nth-child(4),
+.versiones > input:nth-child(9):checked ~ .tab-versiones > .tab-ver:nth-child(5),
+.versiones > input:nth-child(11):checked ~ .tab-versiones > .tab-ver:nth-child(6) {
+  display: block;
+}
+.versiones{position: relative;overflow:hidden;text-align:left;}
+.versiones > label {
+  background:#0f0f0f;
+  color:#0ed515;
+  display: inline-block;
+  padding: 7px 10px;
+  border: 1px solid #168926;
+  cursor: pointer;
+  font-weight: 600;
+}
+.versiones > label:hover,
+.versiones > input:focus + label {
+  background:#222;
+}
+.versiones > input:checked + label {
+  background:#0dc114;
+  border: 1px solid #127b1f;
+  color: #168926;
+}
+.tab-ver {margin:10px 0;}
+#i {float:right; margin:0 !important;}
+#vv1{margin-left:5px;}
+#v4, #v4 table, .btna {
+  width:100%;
+  text-align:center;
+}
+#v4 table th {
+  background:#353535;
+  color:#ddd;
+  padding:10px 5px;
+}
+#v4 table td {
+  padding:10px 5px;
+}
+.btna{background:#000; padding:10px;color:#fff;}

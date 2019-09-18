@@ -1,6 +1,6 @@
 
 a{color:#48e340;text-decoration:none;  transition: .3s ease;}
-table a:hover, #tabs label a:hover, #more a:hover {color:#2bbcb7;}
+table a:hover, label a:hover, #more a:hover {color:#2bbcb7;}
 h1, h2, h3, h4, .separator, .mc-info, table {cursor:context-menu;}
 .separator{margin:50px 5px 10px 5px;}
 .cover2 {display:none;}
@@ -151,7 +151,7 @@ th a{color:#fff;}
 input[type="radio"]{
 	display:none;
 }
-#tabs label{
+label{
 	display:inline-block;
 	padding:15px 10px;
   font-size:18px;
@@ -161,7 +161,7 @@ input[type="radio"]{
   transition: .4s;
   -webkit-transition: .4s;
 }
-#tabs label:hover{color:#888;}
+label:hover{color:#888;}
 .tab{
   padding:10px 7%;
 	background-color:#f3f3f3;

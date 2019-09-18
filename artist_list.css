@@ -1,3 +1,26 @@
+body, html {
+height: 100%;
+  margin: 0;
+  margin:0;
+  font-family: 'Nunito', sans-serif;
+  	background-color:#f3f3f3;
+  background-image: url('https://3.bp.blogspot.com/-W3KdNSm3i7I/XWNUZcvQS3I/AAAAAAAAAp4/iMq2EzVquGUjQEy61HtPVPQowIEhIZUPgCLcBGAs/s1600/pattern.png');
+  background-attachment: fixed;
+}
+*, :before, :after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+	@include box-sizing;
+}
+@mixin box-sizing {
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+a {color:#000;}
+img {width:100%;}
+
+
 /*** Titulo ***/
 .title {
   background-attachment: fixed;
@@ -103,7 +126,7 @@ h4{
 }
 th, td {padding:3px;border:1px #ddd solid;}
 .r-s {
-  margin:10px;
+  margin:5px 0;
 }
 .r-s a {
   padding:0 5px;
@@ -218,5 +241,7 @@ table a {
   grid-gap: .1%;
 }
   .ABC .btn{padding:20px 0;}
-  .r-s {font-size:25px;}
+  .r-s a {padding:0 4px;}
+  .r-s {font-size:23px;}
+  .row {margin: 0px;}
 }

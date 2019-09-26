@@ -1,10 +1,8 @@
-
 a{color:#48e340;text-decoration:none;  transition: .3s ease;}
 table a:hover, label a:hover, #more a:hover {color:#2bbcb7;}
-h1, h2, h3, h4, .separator, .mc-info, table {cursor:context-menu;}
+h1, h2, h3, h4, .separator, .mc-info, table {cursor:default;}
 .separator{margin:50px 5px 10px 5px;}
 .cover2 {display:none;}
-
 
 /*** Titulo ***/
 .title {
@@ -13,6 +11,7 @@ h1, h2, h3, h4, .separator, .mc-info, table {cursor:context-menu;}
   background-repeat: no-repeat;
   background-size: cover;
 }
+.title div {color:#fff;background:rgba(0,0,0,.6);padding:60px 10px;}
 .title h1 {text-align:center;font-size:25px;}
 .title small {display:block;font-weight:400;font-size:16px;}
 
@@ -48,6 +47,7 @@ h3 {
 .btn-SC {background: #ff7300;color: #fff;}
 .btn-i{background: #e8e8e8;color: #3cbefa;}
 .btn-D {background: #0f0f0f;color: #fff;}
+.btn-VO {width:45px;background: #000 url('https://3.bp.blogspot.com/-02JGY08FJek/XYxcyFEvrMI/AAAAAAAAAsA/TKzJx0kWoIIPKF9MTE2u-_2mAG0oqrNxACPcBGAYYCw/icons8-mensaje-de-v%25C3%25ADdeo-48%2B%25281%2529.png') 5px no-repeat;color: rgba(0,0,0,0);background-size: 35px; }
 
 /*** sidebar de informacion ***/
 .info {
@@ -243,3 +243,37 @@ h4 {
 }
   .button-group {font-size: 18px;}
 }
+
+.versiones > input[type="radio"] {
+  display: none;
+}
+.versiones .tab-ver {display: none;}
+.versiones > input:first-child:checked ~ .tab-versiones > .tab-ver:first-child,
+.versiones > input:nth-child(3):checked ~ .tab-versiones > .tab-ver:nth-child(2),
+.versiones > input:nth-child(5):checked ~ .tab-versiones > .tab-ver:nth-child(3),
+.versiones > input:nth-child(7):checked ~ .tab-versiones > .tab-ver:nth-child(4),
+.versiones > input:nth-child(9):checked ~ .tab-versiones > .tab-ver:nth-child(5),
+.versiones > input:nth-child(11):checked ~ .tab-versiones > .tab-ver:nth-child(6) {
+  display: block;
+}
+.versiones{position: relative;overflow:hidden;text-align:left;}
+.versiones > label {
+  background:#0f0f0f;
+  color:#0ed515;
+  display: inline-block;
+  padding: 7px 10px;
+  border: 1px solid #168926;
+  cursor: pointer;
+  font-weight: 600;
+}
+.versiones > label:hover,
+.versiones > input:focus + label {
+  background:#222;
+}
+.versiones > input:checked + label {
+  background:#0dc114;
+  border: 1px solid #127b1f;
+  color: #168926;
+}
+.tab-ver {margin:10px 0;}
+#vv1{margin-left:5px;}

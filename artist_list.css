@@ -5,6 +5,7 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.title div {color:#fff;background:rgba(0,0,0,.6);padding:100px 10px 50px 10px;}
 .title h1 {text-align:center;font-size:25px;letter-spacing:5px;}
 .title small {display:block;font-weight:400;font-size:16px;letter-spacing:3px;}
 

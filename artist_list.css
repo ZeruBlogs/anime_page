@@ -1,31 +1,3 @@
-@import url('https://fonts.googleapis.com/css?family=Coda:800|M+PLUS+1p|Nunito&display=swap&subset=japanese');
-
-
-*, :before, :after {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-body, html {
-height: 100%;
-  margin: 0;
-  font-family: 'Nunito', sans-serif;
-  background-color:#f3f3f3;
-  background-image: url('https://3.bp.blogspot.com/-W3KdNSm3i7I/XWNUZcvQS3I/AAAAAAAAAp4/iMq2EzVquGUjQEy61HtPVPQowIEhIZUPgCLcBGAs/s1600/pattern.png');
-  background-attachment: fixed;
-}
-@mixin box-sizing {
-	-moz-box-sizing: border-box;
-	box-sizing: border-box;
-}
-img{
-max-width:100%;
-}
-a {
-    text-decoration: none;
-    transition: all .2s linear;
-}
-
 /*** Titulo ***/
 .title {
   background-attachment: fixed;

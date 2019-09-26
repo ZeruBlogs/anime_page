@@ -5,14 +5,15 @@
   background-repeat: no-repeat;
   background-size: cover;
 }
+.title div {color:#fff;background:rgba(0,0,0,.6);padding:100px 10px 50px 10px;}
 .title h1 {text-align:center;font-size:25px;letter-spacing:5px;}
 .title small {display:block;font-weight:400;font-size:16px;letter-spacing:3px;}
 
 /* Style the search box */
 #mySearch {
   width: 40%;
-  font-size: 18px;
   padding: 11px;
+  font-size: 18px;
   background-color:transparent;
   color:#fff;
   text-align:center;
@@ -53,7 +54,6 @@
 .row > .column {
   padding:10px 20px;
 }
-
 .column {
   float: left;
   width: 20%;
@@ -102,21 +102,6 @@
 h4{
   margin:10px 0;
 }
-.content a small{
-  position: absolute;
-top:0;
-right:-23px;
-  margin:0;
-  color:#ddd;
-  background:rgba(0,0,0,0.9);
-  padding:5px 2px;
-  border-radius: 0 5px 5px 0;
-  writing-mode: vertical-rl;
-  letter-spacing:2px;
-  font-family:'M PLUS 1p';
-  box-shadow: 6px 10px 10px rgba(0,0,0,0.13), 0 6px 10px rgba(0,0,0,0.4);
-}
-.content a small:hover{background:rgba(0,0,0,0.95);}
 .content .type {
   position: absolute;
   top: 5px;
@@ -135,14 +120,13 @@ right:-23px;
 .content span small {
   padding:3px 10px;
 }
+figure span {position:absolute;}
 /*** Type ***/
 #ova {background:orange;}
 #anime {background:#0092eb;}
 #movie {background:#05c152;}
 #especial {background:#fd3246;}
 #ona {background:#ffde49;color: #333;}
-
-
 
 .show {
   display: block;
@@ -244,34 +228,21 @@ right:-23px;
 }
 /** 550PX **/
 @media only screen and (max-width: 550px) {
-  .column {
-  width: 100%;
-}
+  #mySearch {font-size:14px; width: 60%;}#mySearch:focus {width: 90%;}
 .row > .column {
-  padding:10px 5%px;
+  padding:10px 3%;
 }
-  .row { margin: 0px;  padding:25px; }
+  .row { margin: 0px;  padding:0;}
  .TYPE {
   display: grid;
   grid-template-columns: 16% 16% 16% 16% 16% 16%;
-  grid-gap: .66%;
+  grid-gap: .7%;
 }
-  .TYPE .btn {padding: 12px 0px;
-}
-  /* Style the search box */
-#mySearch {
-  width: 60%;
-}
+.TYPE .btn {padding: 12px 0;}
 
-#mySearch:focus {
-  width: 90%;
+.ABC {
+display:none;
 }
-    .ABC {
-  grid-template-columns: 11% 11% 11% 11% 11% 11% 11% 11% 11%;
-  grid-gap: .1%;
-}
-  .ABC .btn{padding:20px 0;}
-.content a small{
-right:-19px;
-}
+.ABC .btn{padding:20px 0;}
+.type, .year{font-size:14px;}
 }

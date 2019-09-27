@@ -115,6 +115,7 @@ td  {
 }
 h4{margin:5px;}
 #n {
+  width:30px;
   padding:0;
   color:#666;
 }
@@ -376,6 +377,7 @@ font-family: 'Coda', cursive;
       /*** Tabs pestañas ***/
     #tabs{
     padding: 0 20px;
+      font-size:15px;
     }
     .tab{
     padding:10px 20px;
@@ -383,8 +385,9 @@ font-family: 'Coda', cursive;
     }
       /*** Tabs ***/
     .tab h2 {
-      padding: 10px 30px;
+      padding: 10px 30px;font-size:20px;
     }
+  .tab h3{font-size:18px;}
      label{
        font-size:13px;
     }
@@ -401,5 +404,4 @@ font-family: 'Coda', cursive;
   top: 15%;
   z-index: 1001;
 }
-
 }
